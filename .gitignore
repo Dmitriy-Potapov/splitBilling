@@ -1,0 +1,15 @@
+# ignore all maven /target directories (including all submodules)
+target/
+
+# ignore all .iml (IDEA module) files
+*.iml
+
+# ignore .idea files
+# note that .idea/dictionaries and .idea/inspectionProfiles directories are left in VCS for setting up Upsource inspections
+.idea/libraries/
+.idea/artifacts/
+.idea/dataSources/
+.idea/copyright/
+.idea/shelf/
+.idea/*.xml
+.idea/.name
